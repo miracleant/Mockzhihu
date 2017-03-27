@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>AddQuestion</servlet-name>
+        <servlet-class>top.karls.controllers.AddQuestion</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddQuestion</servlet-name>
+        <url-pattern>/service/addQuestion</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AddAnswer</servlet-name>
+        <servlet-class>top.karls.controllers.AddAnswer</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddAnswer</servlet-name>
+        <url-pattern>/service/addAnswer</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>registServlet</servlet-name>
+        <servlet-class>top.karls.extreme.servlet.registServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>top.karls.extreme.servlet.loginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>logout</servlet-name>
+        <servlet-class>top.karls.extreme.servlet.logout</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>checkcodeServlet</servlet-name>
+        <servlet-class>top.karls.extreme.servlet.checkcodeServlet</servlet-class>
+    </servlet>
+
+
+
+
+
+    <servlet-mapping>
+        <servlet-name>registServlet</servlet-name>
+        <url-pattern>/registServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/loginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>checkcodeServlet</servlet-name>
+        <url-pattern>/checkcodeServlet</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+
+</web-app>

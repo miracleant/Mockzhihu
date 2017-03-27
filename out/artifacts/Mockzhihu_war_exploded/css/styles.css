@@ -1,0 +1,300 @@
+body{
+	width: 800px;
+	padding: 0px;
+	margin: auto;
+	background: rgba(212, 209, 209, 0.55);
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-family: "楷体";
+}
+div{
+	font-family: "楷体";
+}
+/*header setting*/
+.fm-header{
+	width: 800px;
+	height: 70px;
+	background: #0767c8;
+	position: relative;
+}
+.fm-header a{
+	font-family: "楷体";
+	color: #fff;
+}
+.fm-header-logo{
+	width: 100px;
+	float: left;
+	text-align: center;
+	height: 50px;
+	line-height: 70px;
+	font-size: 25px;
+	font-family: serif;
+	color: #fff;
+}
+.fm-header-nav{
+	float: left;
+	position: absolute;
+	left: 120px;
+	top: 30px;
+	font-size: 20px;
+}
+
+.fm-header-login{
+	position: absolute;
+	right: 10px;
+}
+.fm-header-regist{
+	position: absolute;
+	right: 60px;
+}
+.fm-header-welcome{
+	position: absolute;
+	right: 10px;
+	top:40px;
+}
+.fm-header-login a{
+	color: #fff;
+	font-family: "楷体";;;;;
+}
+
+/*login set*/
+
+/*login set*/
+.fm-login{
+	display: none;
+	float: left;
+    background: white;
+    position: absolute;
+    top: 115px;
+    left: 30%;
+    border: 1px solid #ebebeb;
+    box-shadow: 0px 0px 20px #ddd;
+    font-size: 20px;
+    z-index: 999;
+    border-radius: 4px;
+    width: 500px;
+    height: 260px;
+}
+.fm-login-content{
+	float: left;
+	position: relative;
+	top: 30px;
+	left: 20px;
+}
+.fm-login-tilte{
+	color: #e22f2f;
+	position: relative;
+	top: 20px;
+	font-size: 30px;
+} 
+.fm-login span{
+	float: left;
+	color: gray;
+	background: #fff;
+	display: block;
+    border-radius: 13px;
+    border: 1px solid #ebebeb;
+    /*box-shadow: 0 0 5px #ddd;*/
+    text-align: center;;
+    position: relative;
+    top: -45px;
+    left: 485px;
+    width: 28px;
+    height: 28px;
+    font-size: 1px;;
+    line-height: 28px;;
+}
+.fm-login-input{
+	margin: 0px 10px 10px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.fm-login-input input{
+	line-height: 20px;
+	height:30px;
+	width: 280px;
+	font-size: 16px;
+	border: #ebebeb 1px solid;
+	text-indent: 5px;
+}
+.fm-login-button{
+	float: left;
+	position: relative;
+    top: 40px;
+    left: 160px;
+}
+.fm-login-button button{
+	line-height: 40px;
+    font-size: 17px;
+    border: #ebebeb 1px solid;
+    text-align: center;
+	background: #ded9d9;
+    padding: 0px 5px;
+    margin: 10px;
+    width:70px;	
+    height: 40px;
+}
+#fm-hidden{
+	position: absolute;
+	display: none;
+	top: 0px;
+	z-index: 888;
+	width: 940px;
+	height: 650px;
+}
+/*login set end*/
+
+/*content setting*/
+.fm-content{
+	width: 800px;
+	position: relative;
+	margin-top: 15px;
+}
+.fm-content-username{
+	position: relative;
+	left: 10px;
+}
+.fm-content-anwers{
+	line-height: 16px;
+}
+.fm-question{
+	width: 800px;
+	height: 230px;
+	background: #fff;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.fm-question span{
+	float: left;
+	margin:10px 10px 5px;
+}
+.fm-question input{
+	width: 300px;
+	height: 25px;
+}
+.fm-question textarea{
+	width: 600px;
+	height: 100px;
+}
+.fm-question button{
+	position: absolute;
+	left: 650px;
+	top: 180px;
+	width: 60px;
+	height: 30px;
+	background: #ebebeb;
+	border: 1px;;
+}
+.fm-content-list{
+	width: 800px;
+	margin-top:8px;
+	float: left;
+	background: #fff;
+	border: 1px #ebebeb solid;
+	border-radius: 5px;
+}
+.fm-content-list a{
+	color: blue;
+}
+.fm-content-anwers{
+		width: 750px;
+		height: 80px;
+		margin: 2px 25px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+}
+/* content set end */
+
+
+/*register set*/
+.fm-reg-content{
+	width: 800px;
+	height: 500px;
+	margin-top: 15px;
+	position: relative;
+	background: #fff;;
+}
+.fm-reg-register{
+	width: 350px;
+	height: 300px;
+	margin: 20px auto;
+	/*position: absolute;*/
+	background: #fff;
+	position: relative;
+	top: 20px;
+}
+
+.fm-reg-register span{
+	float: left;
+	font-size: 22px;;
+	margin: 10px;
+}
+.fm-reg-register p{
+	font-size: 30px;
+	margin: 20px;
+	color: #e22f2f;
+}
+.fm-reg-register span input{
+	line-height: 30px;
+	border: 1px solid #ebebeb;
+	box-shadow: 1px solid #ebebeb;
+	width: 200px;
+
+}
+.fm-reg-register button{
+	width: 80px;
+	height: 35px;
+	position: absolute;
+	left: 130px;
+	bottom: 40px;
+	background: #ebebeb;
+	line-height: 35px;
+	border: 1px solid #ebebeb;
+}
+
+
+
+/*eassy set*/
+#fm-eassy{
+	width: 800px	;
+	background: #fff;
+}
+#fm-eassy-title{
+	width: 800px;
+	margin:10px auto 10px;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;;;
+}
+#fm-eassy-author{
+	width: 800px;
+	text-align: center;
+}
+#fm-eassy-content{
+	margin:10px 20px 20px;
+}
+.fm-eassy-comment-author a{
+	font-weight: bold;
+}
+.fm-eassy-comment-content{
+	padding-left: 20px;;;
+}
+
+/*person info seting*/
+#fm-info-name{
+	margin:15px 20px;
+}
+.fm-questions{
+	background: #fff;
+}
+.user-exists{
+	position:absolute;
+	font-size: 30px;
+	bottom:10px;
+	right:60px;
+	
+}
